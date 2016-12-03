@@ -1,0 +1,9 @@
+# The minimum number of players before it is registered as a sleep. If usePercentage is set to 'true', this is overriden.
+minPlayers: 1
+# Whether or not to use a percentage of users before a new day. If set to true, this overrides minPlayers
+usePercentage: false
+# The ratio of players who need to sleep.
+sleepPercentage: 0.5
+# The delay in between a user hopping in bed and the new day being triggered. 300 is the time it takes for the fade-out animation
+# This allows the other users enough time to request a cancel.
+delayTime: 300

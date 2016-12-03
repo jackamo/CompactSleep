@@ -1,0 +1,23 @@
+name: CompactSleep
+main: nz.jackrobinson.CompactSleep.CompactSleep
+version: 1.0.0
+description: A very simple sleep helper.
+author: JackARRR
+website: http://jackrobinson.co.nz
+commands:
+  csreload:
+    aliases: [compactsleepreload]
+    description: Reloads from the config.yml file
+    permission: compactsleep.bedmaster
+    permission-message: Oi! You don't have access to this command. Stop touching it.
+  cscancel:
+    aliases: [compactsleepcancel]
+    description: Cancels the current sleep request
+    permission: compactsleep.everyone
+permissions:
+ compactsleep.bedmaster:
+  description: Gives permission to modify values in the config.
+  default: op
+ compactsleep.everyone:
+  default: true
+
