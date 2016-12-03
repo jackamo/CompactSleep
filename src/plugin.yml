@@ -1,9 +1,9 @@
 name: CompactSleep
 main: nz.jackrobinson.CompactSleep.CompactSleep
 version: 1.0.0
-description: A very simple sleep helper.
+description: Simple, no fuss Bed system for larger Minecraft servers.
 author: JackARRR
-website: http://jackrobinson.co.nz
+website: https://github.com/jackamo/CompactSleep
 commands:
   csreload:
     aliases: [compactsleepreload]
